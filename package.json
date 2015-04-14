@@ -1,0 +1,44 @@
+{
+  "name": "grunt-ng-importer",
+  "description": "This plugin will generate a file which imports all the files in a folder and register them in angular. Useful for registering controllers, directives, services and filters.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/blessenm/grunt-ng-importer",
+  "author": {
+    "name": "Blessan Mathew",
+    "email": "blessenm@gmail.com",
+    "url": "http://blessanmathew.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blessenm/grunt-ng-importer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/blessenm/grunt-ng-importer/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/blessenm/grunt-ng-importer/blob/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+  }
+}
